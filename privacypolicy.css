@@ -1,26 +1,46 @@
 
-#about{
+#privacy{
     
     text-align: justify;
     margin-top: 90px;
     color: #d8d8d8;
     margin: auto;
+    /* font-size: 1rem; */
+    line-height: 1.4rem;
+    padding: 0px 30px;
     
 }
 h1{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 80px;
+    
 }
 p{
     margin: auto;
     margin-top: 34px;
+    font-size: 1rem; 
 }
-div>p{
+
+#privacy>p{
      width: 88%;
      font-size: 1.1rem;
      align-items: center;
      padding-top: 10px;
+     line-height: 1.3rem;
 }
+#privacy>h4{
+    font-size: 1.2rem;
+    padding: 0 76px;
+   
+}
+
 span>a{
     color: blueviolet;
+}
+
+#me>p{
+   
+    margin-bottom: 30px;
+    margin-top: -10px;
+
 }
