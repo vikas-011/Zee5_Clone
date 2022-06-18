@@ -41,10 +41,6 @@
             #crouser>button:nth-child(3){
                right: -5%;
             }
-            
-            #signUp{
-                background-color: black;
-            }
             #top5{
                 display: grid;
                 grid-template-columns: repeat(5,1fr);
@@ -90,7 +86,18 @@
             #slide>button:first-child{
                 left:5%;
             }
-            
+            #container>h1{
+                color: white;
+            }
+            #container>p{
+                color:violet;
+                text-align: right;
+                padding-right: 30px;
+                font-weight: bold;
+                font-size: 20px;
+                cursor: pointer;
+                text-decoration: none;
+            }
          
     </style>
 </head>
@@ -121,13 +128,10 @@
             <button>></button>
         </div>
         <h1>Top ZEE5 Web Series</h1>
-        <p>Load More</p>
+        <p><a href="https://www.zee5.com/web-series/collections/top-zee5-web-series/0-8-7663">Load ></a></p>
         <div id="top5">
         <!-- append top ZEE5 web seiries here -->
-            <div id="slide">
-                <button><</button>
-                <button>></button>
-            </div>
+            
        
         </div>
 </div>
@@ -162,46 +166,46 @@
                 crouserImage.src=imageArray[imageNumber];
             })
 
-        // let topZee5=[
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2356/portrait/1920x770ffdfc616c75840cf95545cd67e3476d6e2fb2ce4623c4ebaa29b36ba97edf983.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1298/portrait/1920x770d9ead07e5b304a989d85cf8c6e0113fb.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-externalli_845469717/portrait/abhaymalay1920440833706440b0555aecf434464db266c3facbab88437ba48f7ff9824b4a938be5a1856be487.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-externall_2128515498/portrait/abhay21920x77081b7aba24204493eaa486fce263a1827.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z596111/portrait/1920x7709fcbdd4c78184b51aadd7e2e34396dbf.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z587408/portrait/1920x770195db875fe204fa4afe115764b5dc00ba004028948aa4211b107faed649301d7.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z597039/portrait/1920x7708ac7dc91daf34fd390f8c9042bf8ec42.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg",
-        // },
-        // {
-        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2955/portrait/1920x7702bde888e01a54a1688ff0a84809a657aef9692fca19245ee980762d8461cfb17.jpg",
-        // },
-        // ];
-        // topZee5.forEach(function(elem){
-        //     var box=document.createElement("div");
-        //     var image=document.createElement("img");
-        //     image.src=elem.image;
-        //     image.setAttribute("id","divImage");
-        //     box.append(image);
-        //     document.querySelector("#top5").append(box);
-        // })
+         let topZee5=[
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2356/portrait/1920x770ffdfc616c75840cf95545cd67e3476d6e2fb2ce4623c4ebaa29b36ba97edf983.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1298/portrait/1920x770d9ead07e5b304a989d85cf8c6e0113fb.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-externalli_845469717/portrait/abhaymalay1920440833706440b0555aecf434464db266c3facbab88437ba48f7ff9824b4a938be5a1856be487.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-externall_2128515498/portrait/abhay21920x77081b7aba24204493eaa486fce263a1827.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z596111/portrait/1920x7709fcbdd4c78184b51aadd7e2e34396dbf.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z587408/portrait/1920x770195db875fe204fa4afe115764b5dc00ba004028948aa4211b107faed649301d7.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z597039/portrait/1920x7708ac7dc91daf34fd390f8c9042bf8ec42.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg",
+        },
+        {
+            image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2955/portrait/1920x7702bde888e01a54a1688ff0a84809a657aef9692fca19245ee980762d8461cfb17.jpg",
+        },
+        ];
+        topZee5.forEach(function(elem){
+            var box=document.createElement("div");
+            var image=document.createElement("img");
+            image.src=elem.image;
+            image.setAttribute("id","divImage");
+            box.append(image);
+            document.querySelector("#top5").append(box);
+        })
         
 </script>
 </html>

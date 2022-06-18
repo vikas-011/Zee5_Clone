@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+   
+    <style>
+       *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#parent{
+    background-color: #0f0617;
+    height: 100px;
+    width: 100vw;
+    display: grid;
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    position: fixed;
+   
+}
+#menu{
+    width: 50vw;
+    display: grid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+    cursor: pointer;
+   font-size: 20px;
+}
+#signUp{
+    width: 45%;
+   color: #fff;
+   display: grid;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+#search{
+   background-color:#3c3a3d;
+   width:400px;
+    height: 30px;
+    color:wheat;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#languageLogo>img{
+    height: 20px;
+    width: 20px;
+}
+#buyPlan{
+    background-color:blueviolet;
+    height: 30px;
+    width: 100px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#login{
+    font-weight: bold;
+    cursor: pointer;
+}     
+    </style>
+</head>
+<body>
+    <div id="parent">
+            <div id="menu">
+                <div>
+                    <img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.66" alt="logo">
+                </div>
+                <div>Home</div>
+                <div>TV Shows</div>
+                <div>Movies</div>
+                <select name="select" id="select">
+                    <option value="webSeries"><a href="webSeries.html" target="_self">Web Series</a></option>
+                </select>
+                <!-- <div id="webSeries"><a href="webSeries.html" target="_self">Web Series</a></div> -->
+                
+            </div>
+            <div id="signUp">
+                <div><input type="text" name="search" id="search" placeholder="Search for Movies, Shows, Channels etc."></div>
+                <!-- <div id="languageLogo">LANGUAGE</div> -->
+                <div id="login">LOGIN</div>
+                <div id="buyPlan">BUY PLAN
+                </div>
+            </div>
+    </div>
+</body>
+</html>
