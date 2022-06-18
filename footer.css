@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background-color: rgb(39, 11, 65);
+    background-color: rgb(15,6,23);
     font-family:NotoSansRegular, sans-serif;
  }
  
@@ -69,9 +69,9 @@ ul{
    padding: 0 8px;
    padding-top:80px;
 }
-h3{
+h4{
 
- color: rgb(160, 130, 130);
+ color: white;
 
 }
 #img{
@@ -104,7 +104,7 @@ color: rgb(30, 78, 211);
 }
 #rightbox{
     display: flex;
-    width:25%;
+    width:30%;
     height:50px;
     justify-content:space-evenly;
     align-items: center;
@@ -112,7 +112,7 @@ color: rgb(30, 78, 211);
     
     
 }
-#rightbox>h3{
+#rightbox>h4{
     width:60%;
 }
 .media{
