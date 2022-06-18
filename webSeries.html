@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Series</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                background-color: black;
+                box-sizing: border-box;
+                
+            }
+            #crouser{
+                width: 80%;
+                margin: auto;
+                position: relative;
+                margin-top: 100px;
+            }
+            #crouser>img{
+                width: 100%;
+            }
+            #crouser>button{
+                position: absolute;
+                font-size: 60px;
+                width: 60px;
+                color: wheat;
+                border-radius: 40%;
+                background-color: rgba(120, 60, 190, 0.2);
+                border: none;
+                top: 220px;
+                cursor: pointer;
+            }
+            #crouser>button:nth-child(2){
+               left: -5%;
+            }
+            #crouser>button:nth-child(3){
+               right: -5%;
+            }
+            
+            #signUp{
+                background-color: black;
+            }
+            #top5{
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                gap:20px;
+                
+            }
+            #top5>div:hover{
+                width: 110%;
+                cursor: pointer;
+                
+            }
+            #webSeries>a{
+                color: #fff;
+                text-decoration: none;
+
+            }
+
+            #top5>div>img{
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+            #slide{
+                position: relative;
+                width: 100vw;
+                height: 450px;
+                border: 1px solid coral;
+            }
+            #slide>button{
+                position: absolute;
+                font-size: 60px;
+                width: 60px;
+                color: wheat;
+                border-radius: 40%;
+                background-color: rgba(120, 60, 190, 0.2);
+                border: none;
+                top: 220px;
+                cursor: pointer;
+            }
+            #slide>button:last-child{
+                right:5%;
+            }
+            #slide>button:first-child{
+                left:5%;
+            }
+            
+         
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="menu">
+            <div>
+                <img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.66" alt="logo">
+            </div>
+            <div>Home</div>
+            <div>TV Shows</div>
+            <div>Movies</div>
+            <div id="webSeries"><a href="webSeries.html" target="_self">Web Series</a></div>
+            
+        </div>
+        <div id="signUp">
+            <div><input type="text" name="search" id="search" placeholder="Search for Movies, Shows, Channels etc."></div>
+            <!-- <div id="languageLogo">LANGUAGE</div> -->
+            <div id="login">LOGIN</div>
+            <div id="buyPlan">BUY PLAN
+            </div>
+        </div>
+</div>
+    <div id="container">
+        <div id="crouser">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/cover/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg" alt="image">
+            <button><</button>
+            <button>></button>
+        </div>
+        <h1>Top ZEE5 Web Series</h1>
+        <p>Load More</p>
+        <div id="top5">
+        <!-- append top ZEE5 web seiries here -->
+            <div id="slide">
+                <button><</button>
+                <button>></button>
+            </div>
+       
+        </div>
+</div>
+</body>
+<script>
+    let crouserImage=document.querySelector("#crouser>img");
+    let button=document.querySelectorAll("button");
+    let imageArray=[
+        "https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/cover/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg",
+        "https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-1298/cover/1920x770d9ead07e5b304a989d85cf8c6e0113fb.jpg",
+        "https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z587408/cover/1920x770195db875fe204fa4afe115764b5dc00ba004028948aa4211b107faed649301d7.jpg",
+        "https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-2177/cover/1920x770a3c7ba0396c64e6abaa175b6af59a9e1c46673b3db9b437296adf6bdddd2fea4.jpg",
+        "https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-1342/cover/1920x77057051fad425f4a8fb2a9a56bf40bc379.jpg",
+        "https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-2162/cover/1920x770fb16528bc24f4a43bb0164649b0dce95.jpg",
+        "https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-2901/cover/1920x770677858689.jpg",
+    ]
+    let imageNumber=0;
+            button[0].addEventListener("click",function(){
+                if(imageNumber===0){
+                    imageNumber=imageArray.length-1;
+                }else{
+                    imageNumber--;
+                }
+                crouserImage.src=imageArray[imageNumber];
+            })
+            button[1].addEventListener("click",function(){
+                if(imageNumber===imageArray.length-1){
+                    imageNumber=0;
+                }else{
+                    imageNumber++;
+                }
+                crouserImage.src=imageArray[imageNumber];
+            })
+
+        // let topZee5=[
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2356/portrait/1920x770ffdfc616c75840cf95545cd67e3476d6e2fb2ce4623c4ebaa29b36ba97edf983.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-1298/portrait/1920x770d9ead07e5b304a989d85cf8c6e0113fb.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-externalli_845469717/portrait/abhaymalay1920440833706440b0555aecf434464db266c3facbab88437ba48f7ff9824b4a938be5a1856be487.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-101-externall_2128515498/portrait/abhay21920x77081b7aba24204493eaa486fce263a1827.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z596111/portrait/1920x7709fcbdd4c78184b51aadd7e2e34396dbf.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z587408/portrait/1920x770195db875fe204fa4afe115764b5dc00ba004028948aa4211b107faed649301d7.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z597039/portrait/1920x7708ac7dc91daf34fd390f8c9042bf8ec42.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg",
+        // },
+        // {
+        //     image:"https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-2955/portrait/1920x7702bde888e01a54a1688ff0a84809a657aef9692fca19245ee980762d8461cfb17.jpg",
+        // },
+        // ];
+        // topZee5.forEach(function(elem){
+        //     var box=document.createElement("div");
+        //     var image=document.createElement("img");
+        //     image.src=elem.image;
+        //     image.setAttribute("id","divImage");
+        //     box.append(image);
+        //     document.querySelector("#top5").append(box);
+        // })
+        
+</script>
+</html>
