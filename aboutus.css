@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: rgb(39, 11, 65);
+ }
+#about{
+    
+    text-align: justify;
+    margin-top: 90px;
+    color: #d8d8d8;
+    margin: auto;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+p{
+    margin: auto;
+    margin-top: 34px;
+}
+div>p{
+     width: 88%;
+     font-size: 1.2rem;
+     align-items: center;
+     padding-top: 10px;
+}
+span>a{
+    color: blueviolet;
+}
