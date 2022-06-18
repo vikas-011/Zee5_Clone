@@ -23,7 +23,7 @@ ul{
  td{
     border: none;
     border-right: 1px solid gray;
-    padding: 0px 10px ;
+    padding: 0px 11px ;
     
 
  }
@@ -144,7 +144,7 @@ color: rgb(30, 78, 211);
     justify-content: space-evenly;
     width:40%;
     align-items: center;
-    padding-left: 8%;
+    padding-left: 6.6%;
  }
  
 
