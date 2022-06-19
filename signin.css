@@ -34,7 +34,7 @@ body{
 
 
 }
-#box {
+#container {
     height: 550px;
     width: 30%;
     margin: auto;
@@ -53,7 +53,7 @@ img{
 a{
     text-decoration: none;
 }
-#box > #or{
+#container> #or{
     
 /* background: rgba(129, 4, 4, 0.781); */
 /* border-radius: 50%; */
@@ -115,11 +115,11 @@ button{
 }
 
 @media all and (min-width:381px) and (max-width:900px){
-    #box {
+    #container {
         margin: auto;
         width: 50%;
     }
-    #box #or {
+    #container #or {
         margin: auto;
         margin-top: 20px;
     
@@ -133,7 +133,7 @@ button{
     
 }
 @media all and (min-width:50px) and (max-width:380px){
-    #box {
+    #container {
         width: 100%;
         margin: auto;
         text-align: center;

@@ -17,7 +17,7 @@ body{
 
 
 }
-#box {
+#container {
     height: 550px;
     width: 30%;
     margin: auto;
@@ -40,7 +40,7 @@ a{
 ::placeholder{
     color: #fff;
 }
-#box > #or{
+#container> #or{
     
 background: rgba(51, 47, 47, 0.781);
 border-radius: 50%;
@@ -103,7 +103,7 @@ button{
         width: 50px;
         height: 50px;
     }
-    #box {
+    #container {
         margin: auto;
         width: 45%;
     }
@@ -122,11 +122,11 @@ button{
     .fang img{
        display: none;
     }
-    #box {
+    #container {
         width: 100%;
         margin: auto;
     }
-    #box img {
+    #container img {
         height: 10px;
         width: 10px;
     }

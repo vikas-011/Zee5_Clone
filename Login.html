@@ -28,16 +28,16 @@
         margin: 4px 2px;
         cursor: pointer;
     }
-    .cross{
+    .link{
     position: fixed;
     top:4%;
     right:7%;    
     z-index: 999;
 }
-.cross a{
+.link a{
     cursor: pointer;
 }
-  .cross i{
+  .link i{
       font-size: 20px;
       color: rgb(175, 175, 175);
     
@@ -46,8 +46,8 @@
 </style>
 </head>
 <body>
-  <a class="cross" href="./index.html"><i class="fa-solid fa-xmark"></i></a>
-    <div id="box">
+  <a class="link" href="./index.html"><i class="fa-solid fa-xmark"></i></a>
+    <div id="container">
         <h1 id="loginhead">Login to ZEE5</h1>
         <p id="desc">Login to continue enjoying uninterrupted video and personalised experience.</p>
         <a class="fang" href="https://appleid.apple.com/auth/authorize?client_id=com.zee5.pwa&redirect_uri=https%3A%2F%2Fwww.zee5.com&response_type=code%20id_token&state=origin%3Aweb&scope=name%20email&response_mode=web_message&frame_id=5bbf30d0-3ae8-4031-a971-a294b015487e&m=11&v=1.5.4">         <img src="https://www.zee5.com/images/apple-social-icon-circle.svg?ver=2.50.94" alt="">
@@ -88,12 +88,12 @@
   function submit2() {
     
 
-    var mail = document.querySelector("#mail").value;
-    var pass1 =document.querySelector("#pass1").value;
+    let mail = document.querySelector("#mail").value;
+    let pass1 =document.querySelector("#pass1").value;
  
 
-    var flag= false;
-    for (var i = 0; i < regdUsers.length; i++) {
+    let flag= false;
+    for (let i = 0; i < regdUsers.length; i++) {
       if (regdUsers[i].email == mail && regdUsers[i].pass == pass1) {
         flag=true;
 

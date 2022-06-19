@@ -51,7 +51,7 @@
 </head>
 <body>
   <a class="link" href="./index.html"><i class="fa-solid fa-xmark"></i></a>
-    <div id="box">
+    <div id="container">
         <h1>Create a new Account</h1>
         <p>Create an account to continue enjoying uninterrupted video and personalised experience</p>
        
@@ -75,16 +75,16 @@
 </body>
 </html>
 <script>
-var signupArr =JSON.parse(localStorage.getItem("signUpDatails")) || [];
+let signupArr =JSON.parse(localStorage.getItem("signUpDatails")) || [];
  function submit1(){
     event.preventDefault();
-    var signupObj = {
+    let signupObj = {
       email: document.querySelector("#email").value,
       
       pass: document.querySelector("#pass").value,
     };
     
-    var pass2 = document.querySelector("#pass2").value;
+    let pass2 = document.querySelector("#pass2").value;
     if(signupObj.pass==pass2 && signupObj.pass.length>=8 &&  signupObj.pass !== "" && signupObj.email !== ""){
       signupArr.push(signupObj);
     console.log(signupArr);
