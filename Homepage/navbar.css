@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#parent{
+    background-color: #0f0617;
+    height: 100px;
+    width: 100vw;
+    display: grid;
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    position: sticky;
+   
+}
+#menu{
+    width: 50vw;
+    display: grid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+    cursor: pointer;
+   font-size: 20px;
+}
+#signUp{
+    width: 45%;
+   color: #fff;
+   display: grid;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+#search{
+   background-color:#3c3a3d;
+   width:400px;
+    height: 30px;
+    color:wheat;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#languageLogo>img{
+    height: 20px;
+    width: 20px;
+}
+#buyPlan{
+    background-color:blueviolet;
+    height: 30px;
+    width: 100px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#login{
+    font-weight: bold;
+    cursor: pointer;
+}     

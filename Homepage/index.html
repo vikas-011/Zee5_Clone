@@ -1,47 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZEE5 - Watch TV Shows, 100+ Original Movies</title>
-    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/5/5a/Zee5-official-logo.jpeg">
+    <link rel="icon" type="image/x-icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/5/5a/Zee5-official-logo.jpeg">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+
 </head>
+
 <body>
+    <div id="parent">
+        <div id="menu">
+            <div>
+                <img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.66" alt="logo">
+            </div>
+            <div><a href="index.html">Home</a></div>
+            <div>TV Shows</div>
+            <div><a href="movies.html">Movies</a></div>
+            <select name="select" id="select">
+                <option value="webSeries"><a href="webSeries.html" target="_self">Web Series</a></option>
+            </select>
+            <!-- <div id="webSeries"><a href="webSeries.html" target="_self">Web Series</a></div> -->
+
+        </div>
+        <div id="signUp">
+            <div><input type="text" name="search" id="search" placeholder="Search for Movies, Shows, Channels etc.">
+            </div>
+            <!-- <div id="languageLogo">LANGUAGE</div> -->
+            <div id="login"> <a href="Login.html">LOGIN</a></div>
+            <div id="buyPlan">BUY PLAN
+            </div>
+        </div>
+    </div>
     <div class="slideshow-container">
         <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/cover/1170x658withlogo05d4d0839eca4866a1881b4218b99fad_free.jpg" style="width:100%">
-          <div class="text">The Broken News</div>
-          <a href="https://www.zee5.com/web-series/details/the-broken-news/0-6-4z5145215/latest"><button>▶︎ Watch</button></a>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z5161064/cover/list9b0b86863889422b87980f0149984807733df898c407411d92a784e81b20db52_free.jpg" style="width:100%">
-          <div class="text">Dharamveer: Mukkam Post Thane</div>
-          <a href="https://www.zee5.com/movies/details/dharmaveer-mukkam-post-thane/0-0-1z5161064"><button>▶︎ Watch</button></a>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext"></div>
-          <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-101-10z5145273/cover/1170x6582df54c70231d46be821e840ee96314a4.jpg" style="width:100%">
-          <div class="text">RRR</div>
-          <a href="https://www.zee5.com/movies/details/rrr/0-0-1z5145092"><button>▶︎ Watch</button></a>
+            <div class="numbertext"></div>
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/cover/1170x658withlogo05d4d0839eca4866a1881b4218b99fad_free.jpg"
+                style="width:100%">
+            <div class="text">The Broken News</div>
+            <a href="https://www.zee5.com/web-series/details/the-broken-news/0-6-4z5145215/latest"><button>▶︎
+                    Watch</button></a>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext"></div>
-            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z555054/cover/1170x658withlogo584cc2e948b84a1abf9631999da02a45_free.jpg" style="width:100%">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z5161064/cover/list9b0b86863889422b87980f0149984807733df898c407411d92a784e81b20db52_free.jpg"
+                style="width:100%">
+            <div class="text">Dharamveer: Mukkam Post Thane</div>
+            <a href="https://www.zee5.com/movies/details/dharmaveer-mukkam-post-thane/0-0-1z5161064"><button>▶︎
+                    Watch</button></a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-101-10z5145273/cover/1170x6582df54c70231d46be821e840ee96314a4.jpg"
+                style="width:100%">
+            <div class="text">RRR</div>
+            <a href="https://www.zee5.com/movies/details/rrr/0-0-1z5145092"><button>▶︎ Watch</button></a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z555054/cover/1170x658withlogo584cc2e948b84a1abf9631999da02a45_free.jpg"
+                style="width:100%">
             <div class="text">Fuffad Ji</div>
             <a href="https://www.zee5.com/movies/details/fuffad-ji/0-0-1z555054"><button>▶︎ Watch</button></a>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext"></div>
-            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z5163637/cover/1170x658withlogofcac9c46aaeb40f0a0f071fcaa224201.jpg" style="width:100%">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z5163637/cover/1170x658withlogofcac9c46aaeb40f0a0f071fcaa224201.jpg"
+                style="width:100%">
             <div class="text">Baatein</div>
             <a href="https://www.zee5.com/movies/details/baatein/0-0-1z5163637"><button>▶︎ Watch</button></a>
         </div>
@@ -49,25 +85,28 @@
 
         <div class="mySlides fade">
             <div class="numbertext"></div>
-            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z575318/cover/1170x658withlogo9edb6f97432c411ca8d6dc55c32a0017_free.jpg" style="width:100%">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z575318/cover/1170x658withlogo9edb6f97432c411ca8d6dc55c32a0017_free.jpg"
+                style="width:100%">
             <div class="text">Marjaney</div>
             <a href="https://www.zee5.com/movies/details/marjaney/0-0-1z575318"><button>▶︎ Watch</button></a>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext"></div>
-            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z5127658/cover/1170x658withlogo8147f3d6aa394921a0117bc474c5b8a5_free.jpg" style="width:100%">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1188,h_475,c_scale,f_webp,q_auto:eco/resources/0-0-1z5127658/cover/1170x658withlogo8147f3d6aa394921a0117bc474c5b8a5_free.jpg"
+                style="width:100%">
             <div class="text">Sass Mere Ne Munda Jameya</div>
-            <a href="https://www.zee5.com/movies/details/sass-meri-ne-munda-jameya/0-0-1z5163569"><button>▶︎ Watch</button></a>
+            <a href="https://www.zee5.com/movies/details/sass-meri-ne-munda-jameya/0-0-1z5163569"><button>▶︎
+                    Watch</button></a>
         </div>
-      
+
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    
-      
-      <!-- The dots/circles -->
-      <div class="dotbox" style="text-align:center">
+
+
+    <!-- The dots/circles -->
+    <div class="dotbox" style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
@@ -75,592 +114,690 @@
         <span class="dot" onclick="currentSlide(5)"></span>
         <span class="dot" onclick="currentSlide(6)"></span>
         <span class="dot" onclick="currentSlide(7)"></span>
-      </div>
-      
-    
+    </div>
+
+
     <div class="webtext">
-        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067"><p class="web-t">ZEE5 Original Web Series</p></a>
-        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067"><p class="web-s">More ></p></a>
+        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067">
+            <p class="web-t">ZEE5 Original Web Series</p>
+        </a>
+        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067">
+            <p class="web-s">More ></p>
+        </a>
     </div>
     <div class="main-container">
-        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left"
+                aria-hidden="true"></i></button>
         <div class="row flt-left">
-          
-         <div class="row-container">
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/the-broken-news/0-6-4z5145215">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/abhay/0-6-1298">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-1298/portrait/1920x770d9ead07e5b304a989d85cf8c6e0113fb.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/bicchoo-ka-khel/0-6-3064">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3064/portrait/1920x770f6f1d5315e9145808275b6b69e6572f7.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/mithya/0-6-4z587408">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z587408/portrait/1920x770195db875fe204fa4afe115764b5dc00ba004028948aa4211b107faed649301d7.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/bloody-brothers/0-6-4z596111">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z596111/portrait/1920x7709fcbdd4c78184b51aadd7e2e34396dbf.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/never-kiss-your-best-friend/0-6-2356">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-2356/portrait/1920x770ffdfc616c75840cf95545cd67e3476d6e2fb2ce4623c4ebaa29b36ba97edf983.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/kaun-banegi-shikharwati/0-6-4z560880">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/pavitra-rishta-20-its-never-too-late/0-6-3502">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3502/portrait/1920x77096c3c9d32c6946bb933bef0e7463b7af.jpg" class="deck">
-                </a>  
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/anantham/0-6-4z5130773">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5130773/portrait/1920x7708e0b2f3ad3bb45b8be8b3073d20fb1aa.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/taish/0-6-3044">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3044/portrait/063044incover98740071191a4d21bb818ea29d68541e.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-         
-        </div>
-         <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-        <div class="clear"></div>
-      </div>
 
-      <div class="webtext">
-        <a href="https://www.zee5.com/movies/collections/top-zee5-movies-in-punjabi/0-8-4338"><p class="web-t">Top ZEE5 Movies in Punjabi</p></a>
-        <a href="https://www.zee5.com/movies/collections/top-zee5-movies-in-punjabi/0-8-4338"><p class="web-s">More ></p></a>
-    </div>
-    <div class="main-container">
-        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-        <div class="row flt-left">
-          
-         <div class="row-container">
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/sass-meri-ne-munda-jameya/0-0-1z5163569">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5163569/portrait/1920x770e114ea1b2fd8494b9ebffd7f0e3255ac.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+            <div class="row-container">
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/the-broken-news/0-6-4z5145215">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/main-viyah-nahi-karona-tere-naal/0-0-1z5127658">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5127658/portrait/1920x7705069b6f0976a43ada79dde78f78400a1.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/abhay/0-6-1298">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-1298/portrait/1920x770d9ead07e5b304a989d85cf8c6e0113fb.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/yaar-anmulle-returns/0-0-1z5100806">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5100806/portrait/1920x770ca82f8f4d86b40dfbca8819dd8aa8f9a.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/bicchoo-ka-khel/0-6-3064">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3064/portrait/1920x770f6f1d5315e9145808275b6b69e6572f7.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/mera-vyah-kara-do/0-0-1z591197">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z591197/portrait/1920x77062a71c6b7f134f408d409cf9f2a49db2.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/mithya/0-6-4z587408">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z587408/portrait/1920x770195db875fe204fa4afe115764b5dc00ba004028948aa4211b107faed649301d7.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/marjaney/0-0-1z575318">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z575318/portrait/1920x77002a5d3251d9c4fcc8982b7cc70238a05.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/bloody-brothers/0-6-4z596111">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z596111/portrait/1920x7709fcbdd4c78184b51aadd7e2e34396dbf.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/fuffad-ji/0-0-1z555054">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z555054/portrait/1920x77054ac35b3a0714182bdadcfbbe4988232.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/never-kiss-your-best-friend/0-6-2356">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-2356/portrait/1920x770ffdfc616c75840cf95545cd67e3476d6e2fb2ce4623c4ebaa29b36ba97edf983.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/puaada/0-0-1z51682">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z51682/portrait/1920x770cb3877585d064447969daa6e90827efd.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/kaun-banegi-shikharwati/0-6-4z560880">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z560880/portrait/1920x77049b3662989f0475198d1963a5d256ebc.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/jinne-jamme-saare-nikamme/0-0-1z520724">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z520724/portrait/1920x77084f6817d734b47789394b1f5e9343dd1.jpg" class="deck">
-                </a>  
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/pavitra-rishta-20-its-never-too-late/0-6-3502">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3502/portrait/1920x77096c3c9d32c6946bb933bef0e7463b7af.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/tara-mira/0-0-1z512446">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z512446/portrait/1920x770dbc95b0b237a44fc815f8172f7178aa9.jpghttps://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z512446/portrait/1920x770dbc95b0b237a44fc815f8172f7178aa9.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/anantham/0-6-4z5130773">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5130773/portrait/1920x7708e0b2f3ad3bb45b8be8b3073d20fb1aa.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/qismat-2/0-0-1z529263">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z529263/portrait/1920x77053ca64a3a5a948919937b81eb7f2a7f8cb719fc89bb14adaaa3a92c09ff55aa0.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/taish/0-6-3044">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-3044/portrait/063044incover98740071191a4d21bb818ea29d68541e.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
+                <div class="clear"></div>
             </div>
-            <div class="clear"></div>
-        </div>
-         
-        </div>
-         <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-        <div class="clear"></div>
-      </div>
 
-      <div class="webtext">
-        <a href="https://www.zee5.com/collections/top-10-in-india/0-8-7949"><p class="web-t">Top 10 in India</p></a>
-        <a href="https://www.zee5.com/collections/top-10-in-india/0-8-7949"><p class="web-s">More ></p></a>
-    </div>
-    <div class="main-container">
-        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-        <div class="row flt-left">
-          
-         <div class="row-container">
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/rrr/0-0-1z5145092">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5145092/portrait/1920x7707c4185f1842e4b9dbcea4c4c4a292eb5474c8f4dd21046a2b7c4750cb4a1ba6e.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/web-series/details/the-broken-news/0-6-4z5145215">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/the-kashmir-files/0-0-1z5133458">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/portrait/1920x77060dd64aa6ef748f48bbdf4951a1f6af7b51352ca11794ad79904fded999459e7.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/attack-part-1/0-0-1z5146416">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5146416/portrait/1920x77030295e51fe54452d8c85e76c5ec756e8.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/jhund/0-0-1z5133622">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133622/portrait/1920x7705ef1215cc2984b548b3356566bf54c3d.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/radhe-shyam/0-0-1z5156101">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5156101/portrait/1920x7702f5c1d7a0eee45bdbdd6f473c9f51fe8.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/dharmaveer-mukkam-post-thane/0-0-1z5161064">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5161064/portrait/1920x770929392103701486dab6b619dd2a814033853ebe54fd04914b0e00d20da05e23a.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/ardh/0-0-1z5148935">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770ea4b4ed358824163a009717b04978419802bc3eabf62498685faf98fb8817e0a.jpg" class="deck">
-                </a>  
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/zee-plex-movies-on-rent">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5129922/portrait/1920x770f5cd699c80af47118085d23a878faa68.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/pathrosinte-padappukal/0-0-1z5159899">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5159899/portrait/1920x77011d894edf1bb485fa30999abac5d2cda.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="clear"></div>
         </div>
-         
-        </div>
-         <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        <button class='flt-left' onclick="slideLeft(this);"><i class="fa fa-angle-right"
+                aria-hidden="true"></i></button>
         <div class="clear"></div>
-      </div>
+    </div>
 
-      <div class="webtext">
-        <a href="https://www.zee5.com/movies/collections/500-free-movies/0-8-7405"><p class="web-t">500+ Free Movies</p></a>
-        <a href="https://www.zee5.com/movies/collections/500-free-movies/0-8-7405"><p class="web-s">More ></p></a>
+    <div class="webtext">
+        <a href="https://www.zee5.com/movies/collections/top-zee5-movies-in-punjabi/0-8-4338">
+            <p class="web-t">Top ZEE5 Movies in Punjabi</p>
+        </a>
+        <a href="https://www.zee5.com/movies/collections/top-zee5-movies-in-punjabi/0-8-4338">
+            <p class="web-s">More ></p>
+        </a>
     </div>
     <div class="main-container">
-        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left"
+                aria-hidden="true"></i></button>
         <div class="row flt-left">
-          
-         <div class="row-container">
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/ardh/0-0-1z5148935">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770ea4b4ed358824163a009717b04978419802bc3eabf62498685faf98fb8817e0a.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/main-tera-hero/0-0-movie_1675722314">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1675722314/portrait/mainterahero16th1920x770d3a5243857e942249ef297785c7b2dfc.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/pardes/0-0-2451">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2451/portrait/1920x770aa0b0bdd5ba9476eaf84c73c635f659d.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/a-flying-jatt/0-0-2467">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2467/portrait/1920x7703d442d332d68445da5a6c0aca75a2a8c.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/ra-one/0-0-2526">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2526/portrait/1920x77049703fab8b734b45943d96ac300f0699.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/kaho-naa-pyaar-hai/0-0-275857">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-275857/portrait/1920x770283556643.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/jo-jeeta-wohi-sikandar/0-0-6983">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-6983/portrait/1920x7706c9ea1b9eca94e11a1f323d068ea0efc.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/koi-mil-gaya/0-0-275862">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-275862/portrait/1920x7701375991374.jpg" class="deck">
-                </a>  
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/partner/0-0-partner">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-partner/portrait/partnerbanner1920x7706058dfcb06d8473bbdf0e8441b28c9a8.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/jis-desh-mein-ganga-rehta-hain/0-0-jisdeshmeingangareht">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-jisdeshmeingangareht/portrait/jisdeshmeingangarehtahain1.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-         
-        </div>
-         <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-        <div class="clear"></div>
-      </div>
 
-      <div class="webtext">
-        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067"><p class="web-t">Father's Day Special</p></a>
-        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067"><p class="web-s">More ></p></a>
-    </div>
-    <div class="main-container">
-        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-        <div class="row flt-left">
-          
-         <div class="row-container">
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/madaari/0-0-105980">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-105980/portrait/1920x7701484714096.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+            <div class="row-container">
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/sass-meri-ne-munda-jameya/0-0-1z5163569">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5163569/portrait/1920x770e114ea1b2fd8494b9ebffd7f0e3255ac.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/ardh/0-0-1z5148935">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770ea4b4ed358824163a009717b04978419802bc3eabf62498685faf98fb8817e0a.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/main-viyah-nahi-karona-tere-naal/0-0-1z5127658">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5127658/portrait/1920x7705069b6f0976a43ada79dde78f78400a1.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/dial-100/0-0-1z51248">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z51248/portrait/1920x770cac95b31db724e7eae3dd3401aad05a2.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/yaar-anmulle-returns/0-0-1z5100806">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5100806/portrait/1920x770ca82f8f4d86b40dfbca8819dd8aa8f9a.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/pareeksha/0-0-188032">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-188032/portrait/00188032incover60520cd9609e49a88590574d3106eaa1.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/mera-vyah-kara-do/0-0-1z591197">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z591197/portrait/1920x77062a71c6b7f134f408d409cf9f2a49db2.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/jhund/0-0-1z5133622">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133622/portrait/1920x7705ef1215cc2984b548b3356566bf54c3d.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/marjaney/0-0-1z575318">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z575318/portrait/1920x77002a5d3251d9c4fcc8982b7cc70238a05.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/mee-raqsam/0-0-198669">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-198669/portrait/1920x770db5607d000be494fb556a2be83b3f550.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/fuffad-ji/0-0-1z555054">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z555054/portrait/1920x77054ac35b3a0714182bdadcfbbe4988232.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/pad-man/0-0-movie_2077184162">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_2077184162/portrait/padman121920x7362330232362c7734018f2ae4eae861e74633b7c7670.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/puaada/0-0-1z51682">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z51682/portrait/1920x770cb3877585d064447969daa6e90827efd.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/mulk/0-0-6728">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-6728/portrait/006728incover12314315123104ac0c30c9504cd28e37143696169d67.jpg" class="deck">
-                </a>  
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/jinne-jamme-saare-nikamme/0-0-1z520724">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z520724/portrait/1920x77084f6817d734b47789394b1f5e9343dd1.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/ek-rishtaa-the-bond-of-love/0-0-7701">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-7701/portrait/007701cover924672104.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/tara-mira/0-0-1z512446">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z512446/portrait/1920x770dbc95b0b237a44fc815f8172f7178aa9.jpghttps://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z512446/portrait/1920x770dbc95b0b237a44fc815f8172f7178aa9.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/ek-rishtaa-the-bond-of-love/0-0-7701">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-gandhi,myfather/portrait/GandhiMyFather1920x7705b54b4c5237542958e4026c0b5303b67.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/qismat-2/0-0-1z529263">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z529263/portrait/1920x77053ca64a3a5a948919937b81eb7f2a7f8cb719fc89bb14adaaa3a92c09ff55aa0.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
+                <div class="clear"></div>
             </div>
-            <div class="clear"></div>
-        </div>
-         
-        </div>
-         <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-        <div class="clear"></div>
-      </div>
 
-      <div class="webtext">
-        <a href="https://www.zee5.com/movies/collections/hindi-dubbed-movies/0-8-7407"><p class="web-t">Hindi Dubbed Movies</p></a>
-        <a href="https://www.zee5.com/movies/collections/hindi-dubbed-movies/0-8-7407"><p class="web-s">More ></p></a>
+        </div>
+        <button class='flt-left' onclick="slideLeft(this);"><i class="fa fa-angle-right"
+                aria-hidden="true"></i></button>
+        <div class="clear"></div>
+    </div>
+
+    <div class="webtext">
+        <a href="https://www.zee5.com/collections/top-10-in-india/0-8-7949">
+            <p class="web-t">Top 10 in India</p>
+        </a>
+        <a href="https://www.zee5.com/collections/top-10-in-india/0-8-7949">
+            <p class="web-s">More ></p>
+        </a>
     </div>
     <div class="main-container">
-        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left"
+                aria-hidden="true"></i></button>
         <div class="row flt-left">
-          
-         <div class="row-container">
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/robot/0-0-movie_466418637">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_466418637/portrait/1920x770bd16a42c2fd7485db6672b48cb8b435e.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+
+            <div class="row-container">
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/rrr/0-0-1z5145092">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5145092/portrait/1920x7707c4185f1842e4b9dbcea4c4c4a292eb5474c8f4dd21046a2b7c4750cb4a1ba6e.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/radhe-shyam/0-0-1z5156101">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5156101/portrait/1920x7702f5c1d7a0eee45bdbdd6f473c9f51fe8.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/web-series/details/the-broken-news/0-6-4z5145215">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-6-4z5145215/portrait/1920x770a9add3f2aa4745838288b4147deb1b0f.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/aravinda-sametha/0-0-348372">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-348372/portrait/1920x77041f91aea29de44daa6ab065a1f6a6c53.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/the-kashmir-files/0-0-1z5133458">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/portrait/1920x77060dd64aa6ef748f48bbdf4951a1f6af7b51352ca11794ad79904fded999459e7.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/valimai-hindi/0-0-1z5117565">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5117565/portrait/1920x7708e744fbdcb554e54a1036108a0832ebf.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/attack-part-1/0-0-1z5146416">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5146416/portrait/1920x77030295e51fe54452d8c85e76c5ec756e8.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/time-story/0-0-movie_1803765767">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1803765767/portrait/TimeStory1920x7702e3b15ada92d419d95ef0d15a7919a63.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/jhund/0-0-1z5133622">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133622/portrait/1920x7705ef1215cc2984b548b3356566bf54c3d.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/dhruva/0-0-149834">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-149834/portrait/1920x7702018404691.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/radhe-shyam/0-0-1z5156101">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5156101/portrait/1920x7702f5c1d7a0eee45bdbdd6f473c9f51fe8.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/raakshasi/0-0-1z5133688">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133688/portrait/1920x770a9d8bee23b2a416e84d820532a70ece9.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/dharmaveer-mukkam-post-thane/0-0-1z5161064">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5161064/portrait/1920x770929392103701486dab6b619dd2a814033853ebe54fd04914b0e00d20da05e23a.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/shiva-the-super-hero-2/0-0-2535">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2535/portrait/1920x77039312dfd388843bb8347d3b389561888.jpg" class="deck">
-                </a>  
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/ardh/0-0-1z5148935">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770ea4b4ed358824163a009717b04978419802bc3eabf62498685faf98fb8817e0a.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/no-1-businessman/0-0-2518">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2518/portrait/no1businessman1920x770ab3266edb5bd4fdfb2e1c75c60aafc89.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/zee-plex-movies-on-rent">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5129922/portrait/1920x770f5cd699c80af47118085d23a878faa68.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
-                <a href="https://www.zee5.com/movies/details/family-ek-deal/0-0-movie_1369477016">
-                    <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1369477016/portrait/1920x770293ad37dddce438293d07c496434430f.jpg" class="deck">
-                </a>
-                <div class="hover-text">
-                    <div class="h-text">WATCH</div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/pathrosinte-padappukal/0-0-1z5159899">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5159899/portrait/1920x77011d894edf1bb485fa30999abac5d2cda.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
                 </div>
+                <div class="clear"></div>
             </div>
-            <div class="clear"></div>
+
         </div>
-         
-        </div>
-         <button class='flt-left'  onclick="slideLeft(this);"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        <button class='flt-left' onclick="slideLeft(this);"><i class="fa fa-angle-right"
+                aria-hidden="true"></i></button>
         <div class="clear"></div>
-      </div>
+    </div>
+
+    <div class="webtext">
+        <a href="https://www.zee5.com/movies/collections/500-free-movies/0-8-7405">
+            <p class="web-t">500+ Free Movies</p>
+        </a>
+        <a href="https://www.zee5.com/movies/collections/500-free-movies/0-8-7405">
+            <p class="web-s">More ></p>
+        </a>
+    </div>
+    <div class="main-container">
+        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left"
+                aria-hidden="true"></i></button>
+        <div class="row flt-left">
+
+            <div class="row-container">
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/ardh/0-0-1z5148935">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770ea4b4ed358824163a009717b04978419802bc3eabf62498685faf98fb8817e0a.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/main-tera-hero/0-0-movie_1675722314">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1675722314/portrait/mainterahero16th1920x770d3a5243857e942249ef297785c7b2dfc.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/pardes/0-0-2451">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2451/portrait/1920x770aa0b0bdd5ba9476eaf84c73c635f659d.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/a-flying-jatt/0-0-2467">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2467/portrait/1920x7703d442d332d68445da5a6c0aca75a2a8c.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/ra-one/0-0-2526">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2526/portrait/1920x77049703fab8b734b45943d96ac300f0699.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/kaho-naa-pyaar-hai/0-0-275857">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-275857/portrait/1920x770283556643.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/jo-jeeta-wohi-sikandar/0-0-6983">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-6983/portrait/1920x7706c9ea1b9eca94e11a1f323d068ea0efc.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/koi-mil-gaya/0-0-275862">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-275862/portrait/1920x7701375991374.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/partner/0-0-partner">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-partner/portrait/partnerbanner1920x7706058dfcb06d8473bbdf0e8441b28c9a8.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a
+                        href="https://www.zee5.com/movies/details/jis-desh-mein-ganga-rehta-hain/0-0-jisdeshmeingangareht">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-jisdeshmeingangareht/portrait/jisdeshmeingangarehtahain1.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <button class='flt-left' onclick="slideLeft(this);"><i class="fa fa-angle-right"
+                aria-hidden="true"></i></button>
+        <div class="clear"></div>
+    </div>
+
+    <div class="webtext">
+        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067">
+            <p class="web-t">Father's Day Special</p>
+        </a>
+        <a href="https://www.zee5.com/collections/fathers-day-special/0-8-3z5164067">
+            <p class="web-s">More ></p>
+        </a>
+    </div>
+    <div class="main-container">
+        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left"
+                aria-hidden="true"></i></button>
+        <div class="row flt-left">
+
+            <div class="row-container">
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/madaari/0-0-105980">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-105980/portrait/1920x7701484714096.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/ardh/0-0-1z5148935">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5148935/portrait/1920x770ea4b4ed358824163a009717b04978419802bc3eabf62498685faf98fb8817e0a.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/dial-100/0-0-1z51248">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z51248/portrait/1920x770cac95b31db724e7eae3dd3401aad05a2.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/pareeksha/0-0-188032">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-188032/portrait/00188032incover60520cd9609e49a88590574d3106eaa1.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/jhund/0-0-1z5133622">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133622/portrait/1920x7705ef1215cc2984b548b3356566bf54c3d.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/mee-raqsam/0-0-198669">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-198669/portrait/1920x770db5607d000be494fb556a2be83b3f550.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/pad-man/0-0-movie_2077184162">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_2077184162/portrait/padman121920x7362330232362c7734018f2ae4eae861e74633b7c7670.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/mulk/0-0-6728">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-6728/portrait/006728incover12314315123104ac0c30c9504cd28e37143696169d67.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/ek-rishtaa-the-bond-of-love/0-0-7701">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-7701/portrait/007701cover924672104.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/ek-rishtaa-the-bond-of-love/0-0-7701">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-gandhi,myfather/portrait/GandhiMyFather1920x7705b54b4c5237542958e4026c0b5303b67.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <button class='flt-left' onclick="slideLeft(this);"><i class="fa fa-angle-right"
+                aria-hidden="true"></i></button>
+        <div class="clear"></div>
+    </div>
+
+    <div class="webtext">
+        <a href="https://www.zee5.com/movies/collections/hindi-dubbed-movies/0-8-7407">
+            <p class="web-t">Hindi Dubbed Movies</p>
+        </a>
+        <a href="https://www.zee5.com/movies/collections/hindi-dubbed-movies/0-8-7407">
+            <p class="web-s">More ></p>
+        </a>
+    </div>
+    <div class="main-container">
+        <button class='flt-left' onclick="slideRight(this);"><i class="fa fa-angle-left"
+                aria-hidden="true"></i></button>
+        <div class="row flt-left">
+
+            <div class="row-container">
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/robot/0-0-movie_466418637">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_466418637/portrait/1920x770bd16a42c2fd7485db6672b48cb8b435e.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/radhe-shyam/0-0-1z5156101">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5156101/portrait/1920x7702f5c1d7a0eee45bdbdd6f473c9f51fe8.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/aravinda-sametha/0-0-348372">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-348372/portrait/1920x77041f91aea29de44daa6ab065a1f6a6c53.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/valimai-hindi/0-0-1z5117565">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5117565/portrait/1920x7708e744fbdcb554e54a1036108a0832ebf.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/time-story/0-0-movie_1803765767">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1803765767/portrait/TimeStory1920x7702e3b15ada92d419d95ef0d15a7919a63.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/dhruva/0-0-149834">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-149834/portrait/1920x7702018404691.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/raakshasi/0-0-1z5133688">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133688/portrait/1920x770a9d8bee23b2a416e84d820532a70ece9.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/shiva-the-super-hero-2/0-0-2535">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2535/portrait/1920x77039312dfd388843bb8347d3b389561888.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/no-1-businessman/0-0-2518">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-2518/portrait/no1businessman1920x770ab3266edb5bd4fdfb2e1c75c60aafc89.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://www.zee5.com/movies/details/family-ek-deal/0-0-movie_1369477016">
+                        <img src="https://akamaividz2.zee5.com/image/upload/w_231,h_347,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1369477016/portrait/1920x770293ad37dddce438293d07c496434430f.jpg"
+                            class="deck">
+                    </a>
+                    <div class="hover-text">
+                        <div class="h-text">WATCH</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <button class='flt-left' onclick="slideLeft(this);"><i class="fa fa-angle-right"
+                aria-hidden="true"></i></button>
+        <div class="clear"></div>
+    </div>
 
 </body>
+
 </html>
 <script src="index.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
