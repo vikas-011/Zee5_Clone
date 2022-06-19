@@ -8,10 +8,6 @@
  }
  
  
- .row{
-    display: flex;
-    flex-wrap: wrap;
- }
 
 ul{
     list-style: none;
@@ -74,9 +70,6 @@ h4{
  color: white;
 
 }
-#img{
- padding-left: 21%;
- }
 a{
 text-decoration: none;
 color: gray;
@@ -102,7 +95,7 @@ color: rgb(30, 78, 211);
     font-size: 14px;
     margin-left: 112px;
 }
-#rightbox{
+#ri8box{
     display: flex;
     width:30%;
     height:50px;
@@ -112,7 +105,7 @@ color: rgb(30, 78, 211);
     
     
 }
-#rightbox>h4{
+#ri8box>h4{
     width:60%;
 }
 .media{
@@ -139,7 +132,7 @@ color: rgb(30, 78, 211);
     z-index: 2;
 
 }
- #lftbox{
+ #leftbox{
     display: flex;
     justify-content: space-evenly;
     width:40%;
